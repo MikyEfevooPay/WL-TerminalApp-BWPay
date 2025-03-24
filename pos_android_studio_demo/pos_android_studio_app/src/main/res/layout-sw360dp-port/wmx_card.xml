@@ -95,7 +95,7 @@
                 app:lottie_rawRes="@raw/puntos"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
-                android:visibility="visible"
+                android:visibility="gone"
                 />
 
             <EditText
