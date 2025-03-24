@@ -1,10 +1,10 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
-import com.Centumpay.demoui.activities.WMX_Card;
-import com.Centumpay.demoui.activities.WMX_Historial_Cancelaciones;
-import com.Centumpay.demoui.activities.WMX_Historial_CorteCaja;
-import com.Centumpay.demoui.activities.WMX_Menu;
-import com.Centumpay.demoui.activities.WMX_Transaccion;
+import com.BusinessWallet.demoui.activities.WMX_Card;
+import com.BusinessWallet.demoui.activities.WMX_Historial_Cancelaciones;
+import com.BusinessWallet.demoui.activities.WMX_Historial_CorteCaja;
+import com.BusinessWallet.demoui.activities.WMX_Menu;
+import com.BusinessWallet.demoui.activities.WMX_Transaccion;
 
 import java.util.HashMap;
 

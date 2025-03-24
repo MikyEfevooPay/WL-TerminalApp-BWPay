@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,16 +9,16 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import com.android.volley.Request;
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.interfaces.FetchEntity;
-import com.Centumpay.demoui.interfaces.FetchOptions;
-import com.Centumpay.demoui.interfaces.TransactionsViewInterface;
-import com.Centumpay.demoui.utils.Fetch;
-import com.Centumpay.demoui.utils.FetchUIManager;
-import com.Centumpay.demoui.utils.TRACE;
-import com.Centumpay.demoui.utils.Transaction;
-import com.Centumpay.demoui.utils.Utils;
-import com.Centumpay.demoui.widget.CancelacionesItemAdapter;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.interfaces.FetchEntity;
+import com.BusinessWallet.demoui.interfaces.FetchOptions;
+import com.BusinessWallet.demoui.interfaces.TransactionsViewInterface;
+import com.BusinessWallet.demoui.utils.Fetch;
+import com.BusinessWallet.demoui.utils.FetchUIManager;
+import com.BusinessWallet.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.utils.Transaction;
+import com.BusinessWallet.demoui.utils.Utils;
+import com.BusinessWallet.demoui.widget.CancelacionesItemAdapter;
 
 import org.json.JSONException;
 import org.json.JSONObject;

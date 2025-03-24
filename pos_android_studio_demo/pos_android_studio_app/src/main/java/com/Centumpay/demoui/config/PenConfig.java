@@ -1,9 +1,9 @@
-package com.Centumpay.demoui.config;
+package com.BusinessWallet.demoui.config;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import com.Centumpay.demoui.view.PaintSettingWindow;
+import com.BusinessWallet.demoui.view.PaintSettingWindow;
 
 /**
  * 画笔配置

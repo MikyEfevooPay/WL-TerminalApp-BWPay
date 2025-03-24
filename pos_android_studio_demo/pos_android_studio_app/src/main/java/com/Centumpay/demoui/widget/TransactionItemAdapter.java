@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.widget;
+package com.BusinessWallet.demoui.widget;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.utils.Transaction;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.utils.Transaction;
 
 import java.util.ArrayList;
 

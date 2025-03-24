@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.Looper;
 import com.dspread.xpos.CQPOSService;
 import com.dspread.xpos.QPOSService;
 import com.dspread.xpos.TradeSoundType;
-import com.Centumpay.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.utils.TRACE;
 
 import java.util.Hashtable;
 import java.util.concurrent.CompletableFuture;

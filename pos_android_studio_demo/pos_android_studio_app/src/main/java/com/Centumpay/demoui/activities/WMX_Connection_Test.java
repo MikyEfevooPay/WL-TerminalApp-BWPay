@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,11 +6,11 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import com.android.volley.Request;
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.interfaces.FetchEntity;
-import com.Centumpay.demoui.interfaces.FetchOptions;
-import com.Centumpay.demoui.utils.FetchUIManager;
-import com.Centumpay.demoui.utils.Utils;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.interfaces.FetchEntity;
+import com.BusinessWallet.demoui.interfaces.FetchOptions;
+import com.BusinessWallet.demoui.utils.FetchUIManager;
+import com.BusinessWallet.demoui.utils.Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

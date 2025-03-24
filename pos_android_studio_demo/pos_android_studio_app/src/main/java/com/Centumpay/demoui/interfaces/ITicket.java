@@ -1,7 +1,7 @@
-package com.Centumpay.demoui.interfaces;
+package com.BusinessWallet.demoui.interfaces;
 
-import com.Centumpay.demoui.utils.PRINT_TYPE;
-import com.Centumpay.demoui.utils.Ticket;
+import com.BusinessWallet.demoui.utils.PRINT_TYPE;
+import com.BusinessWallet.demoui.utils.Ticket;
 
 public interface ITicket {
     void onPrintFinished(boolean isSuccess, PRINT_TYPE print_type, TicketLayoutType layoutType);

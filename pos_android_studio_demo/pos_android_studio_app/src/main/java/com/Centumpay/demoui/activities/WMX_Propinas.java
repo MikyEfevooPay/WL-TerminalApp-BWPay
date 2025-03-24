@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,11 +14,11 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.utils.DBManager;
-import com.Centumpay.demoui.utils.GlobalFunctions;
-import com.Centumpay.demoui.utils.InputFilterMinMax;
-import com.Centumpay.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.utils.DBManager;
+import com.BusinessWallet.demoui.utils.GlobalFunctions;
+import com.BusinessWallet.demoui.utils.InputFilterMinMax;
+import com.BusinessWallet.demoui.utils.TRACE;
 import com.google.android.material.textfield.TextInputEditText;
 
 public class WMX_Propinas extends BaseActivity implements View.OnClickListener{

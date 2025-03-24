@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.beans;
+package com.BusinessWallet.demoui.beans;
 
 import com.dspread.xpos.QPOSService;
 

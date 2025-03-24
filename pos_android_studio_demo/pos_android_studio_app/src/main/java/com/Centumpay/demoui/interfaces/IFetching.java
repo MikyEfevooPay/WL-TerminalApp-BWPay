@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.interfaces;
+package com.BusinessWallet.demoui.interfaces;
 
 public interface IFetching {
     void onFetchResult(Object result, String error);

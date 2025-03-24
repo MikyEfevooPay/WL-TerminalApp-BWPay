@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

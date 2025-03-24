@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
 
 import android.annotation.SuppressLint;
@@ -8,8 +8,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.StringRequest;
-import com.Centumpay.demoui.interfaces.FetchOptions;
-import com.Centumpay.demoui.interfaces.IFetching;
+import com.BusinessWallet.demoui.interfaces.FetchOptions;
+import com.BusinessWallet.demoui.interfaces.IFetching;
 
 import org.json.JSONException;
 import org.json.JSONObject;

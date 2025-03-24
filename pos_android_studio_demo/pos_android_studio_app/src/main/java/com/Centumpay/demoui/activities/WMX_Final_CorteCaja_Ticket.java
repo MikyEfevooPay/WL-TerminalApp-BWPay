@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,18 +18,18 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatImageButton;
 
-import com.Centumpay.demoui.interfaces.FetchEntity;
-import com.Centumpay.demoui.interfaces.FetchOptions;
-import com.Centumpay.demoui.interfaces.TicketLayoutType;
-import com.Centumpay.demoui.utils.DBManager;
-import com.Centumpay.demoui.utils.Fetch;
-import com.Centumpay.demoui.utils.FetchUIManager;
-import com.Centumpay.demoui.utils.TRACE;
-import com.Centumpay.demoui.utils.Ticket;
-import com.Centumpay.demoui.utils.Utils;
+import com.BusinessWallet.demoui.interfaces.FetchEntity;
+import com.BusinessWallet.demoui.interfaces.FetchOptions;
+import com.BusinessWallet.demoui.interfaces.TicketLayoutType;
+import com.BusinessWallet.demoui.utils.DBManager;
+import com.BusinessWallet.demoui.utils.Fetch;
+import com.BusinessWallet.demoui.utils.FetchUIManager;
+import com.BusinessWallet.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.utils.Ticket;
+import com.BusinessWallet.demoui.utils.Utils;
 
 import com.android.volley.Request;
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.R;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.json.JSONException;

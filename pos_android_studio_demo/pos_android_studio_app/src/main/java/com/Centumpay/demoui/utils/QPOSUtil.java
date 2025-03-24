@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.security.KeyFactory;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.RSAPublicKeySpec;
 
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.R;
 
 import android.content.Context;
 import android.media.AudioManager;

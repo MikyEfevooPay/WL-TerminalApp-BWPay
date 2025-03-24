@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,7 +9,7 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 
-import com.Centumpay.demoui.config.PenConfig;
+import com.BusinessWallet.demoui.config.PenConfig;
 
 import android.util.Base64;
 import android.util.Log;

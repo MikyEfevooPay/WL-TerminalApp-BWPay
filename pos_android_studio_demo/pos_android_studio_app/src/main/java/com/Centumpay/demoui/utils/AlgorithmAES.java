@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;

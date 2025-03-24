@@ -1,10 +1,10 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.R;
 
 public class WMX_TransactionResult extends BaseActivity implements View.OnClickListener{
     private String result = "";

@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -12,9 +12,9 @@ import android.widget.Button;
 import androidx.annotation.RequiresApi;
 
 import com.dspread.xpos.CQPOSService;
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.utils.QPOSStatus;
-import com.Centumpay.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.utils.QPOSStatus;
+import com.BusinessWallet.demoui.utils.TRACE;
 
 public class WMX_Transaction_Cancel extends BaseActivity {
     private String  Amount, AmountToShow, type_transaction, ksn_posId, _Propina,_noAuth, total, months_total, subtotal, tips, msi, approve;

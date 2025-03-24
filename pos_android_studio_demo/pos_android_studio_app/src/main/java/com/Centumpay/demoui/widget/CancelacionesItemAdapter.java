@@ -1,5 +1,5 @@
 
-package com.Centumpay.demoui.widget;
+package com.BusinessWallet.demoui.widget;
 
 import android.content.Context;
 
@@ -11,9 +11,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.interfaces.TransactionsViewInterface;
-import com.Centumpay.demoui.utils.Transaction;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.interfaces.TransactionsViewInterface;
+import com.BusinessWallet.demoui.utils.Transaction;
 
 import java.util.ArrayList;
 import java.util.Locale;

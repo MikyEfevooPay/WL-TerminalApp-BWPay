@@ -1,10 +1,10 @@
-package com.Centumpay.demoui.view;
+package com.BusinessWallet.demoui.view;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.config.PenConfig;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.config.PenConfig;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;

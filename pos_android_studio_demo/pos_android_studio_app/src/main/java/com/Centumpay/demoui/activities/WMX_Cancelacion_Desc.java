@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,12 +13,12 @@ import android.widget.TextView;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.core.graphics.drawable.DrawableCompat;
 
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.interfaces.TicketLayoutType;
-import com.Centumpay.demoui.utils.DBManager;
-import com.Centumpay.demoui.utils.GNTBackEnd;
-import com.Centumpay.demoui.utils.GlobalFunctions;
-import com.Centumpay.demoui.utils.Ticket;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.interfaces.TicketLayoutType;
+import com.BusinessWallet.demoui.utils.DBManager;
+import com.BusinessWallet.demoui.utils.GNTBackEnd;
+import com.BusinessWallet.demoui.utils.GlobalFunctions;
+import com.BusinessWallet.demoui.utils.Ticket;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.Locale;

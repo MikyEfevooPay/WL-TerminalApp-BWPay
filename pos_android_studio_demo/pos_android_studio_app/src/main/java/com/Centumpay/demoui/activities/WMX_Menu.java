@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -10,13 +10,13 @@ import android.os.Handler;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.LinearLayout;
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.utils.ConfigAmex;
-import com.Centumpay.demoui.utils.ConfigTpv;
-import com.Centumpay.demoui.utils.GNTBackEnd;
-import com.Centumpay.demoui.utils.ResponseCode;
-import com.Centumpay.demoui.utils.TRACE;
-import com.Centumpay.demoui.utils.Utils;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.utils.ConfigAmex;
+import com.BusinessWallet.demoui.utils.ConfigTpv;
+import com.BusinessWallet.demoui.utils.GNTBackEnd;
+import com.BusinessWallet.demoui.utils.ResponseCode;
+import com.BusinessWallet.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.utils.Utils;
 
 public class WMX_Menu extends BaseActivity implements View.OnClickListener {
     // private Button other, ajustes, meses;

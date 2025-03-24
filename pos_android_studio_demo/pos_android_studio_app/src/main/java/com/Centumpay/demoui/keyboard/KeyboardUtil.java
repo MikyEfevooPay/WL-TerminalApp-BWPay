@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.keyboard;
+package com.BusinessWallet.demoui.keyboard;
 
 import android.app.Activity;
 import android.view.Gravity;
@@ -15,8 +15,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.widget.AppCompatButton;
 
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.utils.TRACE;
 
 import java.lang.reflect.Method;
 import java.util.List;

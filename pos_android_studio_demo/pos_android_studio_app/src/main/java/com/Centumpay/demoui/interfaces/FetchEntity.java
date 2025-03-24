@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.interfaces;
+package com.BusinessWallet.demoui.interfaces;
 
 public class FetchEntity {
     public String key;

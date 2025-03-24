@@ -18,7 +18,7 @@ android {
     compileSdk 33
     buildToolsVersion '30.0.3'
     defaultConfig {
-        applicationId 'com.Centumpay.demoui'
+        applicationId 'com.BusinessWallet.demoui'
         minSdkVersion 17
         targetSdk 31
         versionCode 295

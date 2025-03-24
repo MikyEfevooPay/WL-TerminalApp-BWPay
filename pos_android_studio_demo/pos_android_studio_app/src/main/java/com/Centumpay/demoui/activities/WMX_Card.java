@@ -1,9 +1,9 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 
-import static com.Centumpay.demoui.utils.AlgorithmAES.decrypt;
-import static com.Centumpay.demoui.utils.AlgorithmAES.encrypt;
+import static com.BusinessWallet.demoui.utils.AlgorithmAES.decrypt;
+import static com.BusinessWallet.demoui.utils.AlgorithmAES.encrypt;
 import android.Manifest;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -39,27 +39,27 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.dspread.xpos.TradeSoundType;
-import com.Centumpay.demoui.BuildConfig;
-import com.Centumpay.demoui.config.PenConfig;
-import com.Centumpay.demoui.interfaces.FetchEntity;
-import com.Centumpay.demoui.interfaces.FetchOptions;
-import com.Centumpay.demoui.keyboard.KeyboardUtil;
-import com.Centumpay.demoui.keyboard.MyKeyboardView;
-import com.Centumpay.demoui.utils.DBManager;
-import com.Centumpay.demoui.utils.Fetch;
-import com.Centumpay.demoui.utils.FetchUIManager;
-import com.Centumpay.demoui.utils.GNTBackEnd;
-import com.Centumpay.demoui.utils.QPOSStatus;
-import com.Centumpay.demoui.utils.RequestSingleton;
-import com.Centumpay.demoui.utils.ResponseCode;
-import com.Centumpay.demoui.utils.TLV;
-import com.Centumpay.demoui.utils.TLVParser;
-import com.Centumpay.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.BuildConfig;
+import com.BusinessWallet.demoui.config.PenConfig;
+import com.BusinessWallet.demoui.interfaces.FetchEntity;
+import com.BusinessWallet.demoui.interfaces.FetchOptions;
+import com.BusinessWallet.demoui.keyboard.KeyboardUtil;
+import com.BusinessWallet.demoui.keyboard.MyKeyboardView;
+import com.BusinessWallet.demoui.utils.DBManager;
+import com.BusinessWallet.demoui.utils.Fetch;
+import com.BusinessWallet.demoui.utils.FetchUIManager;
+import com.BusinessWallet.demoui.utils.GNTBackEnd;
+import com.BusinessWallet.demoui.utils.QPOSStatus;
+import com.BusinessWallet.demoui.utils.RequestSingleton;
+import com.BusinessWallet.demoui.utils.ResponseCode;
+import com.BusinessWallet.demoui.utils.TLV;
+import com.BusinessWallet.demoui.utils.TLVParser;
+import com.BusinessWallet.demoui.utils.TRACE;
 import com.dspread.xpos.QPOSService;
 import com.dspread.xpos.QPOSService.TransactionType;
 import com.dspread.xpos.CQPOSService;
 
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -79,7 +79,7 @@ import java.util.Locale;
 import libdukpt.DUKPK2009_CBC;
 
 import com.blumonpay.capx.model.DUKPTData;
-import com.Centumpay.demoui.utils.Utils;
+import com.BusinessWallet.demoui.utils.Utils;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 interface INTERNAL_QPOS_STATUS {

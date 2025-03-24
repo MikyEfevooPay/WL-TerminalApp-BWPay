@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.view;
+package com.BusinessWallet.demoui.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -6,14 +6,14 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.config.PenConfig;
-import com.Centumpay.demoui.pen.BasePen;
-import com.Centumpay.demoui.pen.Eraser;
-import com.Centumpay.demoui.pen.SteelPen;
-import com.Centumpay.demoui.utils.BitmapUtil;
-import com.Centumpay.demoui.utils.DisplayUtil;
-import com.Centumpay.demoui.utils.StepOperator;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.config.PenConfig;
+import com.BusinessWallet.demoui.pen.BasePen;
+import com.BusinessWallet.demoui.pen.Eraser;
+import com.BusinessWallet.demoui.pen.SteelPen;
+import com.BusinessWallet.demoui.utils.BitmapUtil;
+import com.BusinessWallet.demoui.utils.DisplayUtil;
+import com.BusinessWallet.demoui.utils.StepOperator;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.MotionEvent;

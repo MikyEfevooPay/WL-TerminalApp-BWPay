@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.view;
+package com.BusinessWallet.demoui.view;
 
 
 import android.content.Context;
@@ -6,9 +6,9 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.config.PenConfig;
-import com.Centumpay.demoui.utils.DisplayUtil;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.config.PenConfig;
+import com.BusinessWallet.demoui.utils.DisplayUtil;
 import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;

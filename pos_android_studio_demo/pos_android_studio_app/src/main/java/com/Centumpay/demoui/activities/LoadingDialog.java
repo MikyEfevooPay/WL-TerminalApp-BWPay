@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.content.Context;
 import android.os.Build;
@@ -6,9 +6,9 @@ import android.view.Gravity;
 import android.view.animation.Animation;
 import android.widget.ImageView;
 
-import com.Centumpay.demoui.DialogFactory;
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.utils.AnimationUtil;
+import com.BusinessWallet.demoui.DialogFactory;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.utils.AnimationUtil;
 
 import java.util.Objects;
 

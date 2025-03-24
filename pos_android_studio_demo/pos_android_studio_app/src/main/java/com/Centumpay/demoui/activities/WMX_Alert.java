@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.content.Context;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.R;
 
 public class WMX_Alert extends AppCompatActivity {
     private Toast toast;

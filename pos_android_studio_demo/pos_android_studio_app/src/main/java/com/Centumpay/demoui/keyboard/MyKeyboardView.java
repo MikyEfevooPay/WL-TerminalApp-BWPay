@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.keyboard;
+package com.BusinessWallet.demoui.keyboard;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,9 +10,9 @@ import android.widget.EditText;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.utils.QPOSUtil;
-import com.Centumpay.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.utils.QPOSUtil;
+import com.BusinessWallet.demoui.utils.TRACE;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.widget;
+package com.BusinessWallet.demoui.widget;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,9 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.interfaces.HistorialCorteCajaViewInterface;
-import com.Centumpay.demoui.utils.CorteCaja;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.interfaces.HistorialCorteCajaViewInterface;
+import com.BusinessWallet.demoui.utils.CorteCaja;
 
 import java.util.ArrayList;
 

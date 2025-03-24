@@ -1,8 +1,8 @@
-package com.Centumpay.demoui;
+package com.BusinessWallet.demoui;
 
 import android.content.Context;
 
-import com.Centumpay.demoui.activities.LoadingDialog;
+import com.BusinessWallet.demoui.activities.LoadingDialog;
 
 public class DialogFactory {
 

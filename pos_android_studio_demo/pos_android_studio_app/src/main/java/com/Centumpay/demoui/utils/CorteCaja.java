@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
 public class CorteCaja {
     String _idCorte,_Identificador,_total,_FechaHora, _subtotal, _propina;

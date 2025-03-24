@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -15,15 +15,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.volley.Request;
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.interfaces.FetchEntity;
-import com.Centumpay.demoui.interfaces.FetchOptions;
-import com.Centumpay.demoui.interfaces.HistorialCorteCajaViewInterface;
-import com.Centumpay.demoui.utils.CorteCaja;
-import com.Centumpay.demoui.utils.Fetch;
-import com.Centumpay.demoui.utils.FetchUIManager;;
-import com.Centumpay.demoui.utils.Utils;
-import com.Centumpay.demoui.widget.FinalCorteCajaItemAdapter;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.interfaces.FetchEntity;
+import com.BusinessWallet.demoui.interfaces.FetchOptions;
+import com.BusinessWallet.demoui.interfaces.HistorialCorteCajaViewInterface;
+import com.BusinessWallet.demoui.utils.CorteCaja;
+import com.BusinessWallet.demoui.utils.Fetch;
+import com.BusinessWallet.demoui.utils.FetchUIManager;;
+import com.BusinessWallet.demoui.utils.Utils;
+import com.BusinessWallet.demoui.widget.FinalCorteCajaItemAdapter;
 
 import org.json.JSONException;
 import org.json.JSONObject;

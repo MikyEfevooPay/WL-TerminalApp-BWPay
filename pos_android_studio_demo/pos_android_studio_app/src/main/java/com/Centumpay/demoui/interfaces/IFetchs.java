@@ -1,8 +1,8 @@
-package com.Centumpay.demoui.interfaces;
+package com.BusinessWallet.demoui.interfaces;
 
 import androidx.annotation.Nullable;
 
-import com.Centumpay.demoui.utils.FetchUIManager;
+import com.BusinessWallet.demoui.utils.FetchUIManager;
 
 import java.util.List;
 

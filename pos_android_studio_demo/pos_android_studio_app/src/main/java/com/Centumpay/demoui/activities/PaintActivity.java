@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -19,17 +19,17 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.StringRequest;
-import com.Centumpay.demoui.config.PenConfig;
-import com.Centumpay.demoui.utils.BitmapUtil;
-import com.Centumpay.demoui.utils.DisplayUtil;
-import com.Centumpay.demoui.utils.RequestSingleton;
-import com.Centumpay.demoui.utils.StatusBarCompat;
-import com.Centumpay.demoui.utils.SystemUtil;
-import com.Centumpay.demoui.utils.TRACE;
-import com.Centumpay.demoui.utils.Utils;
-import com.Centumpay.demoui.view.CircleView;
-import com.Centumpay.demoui.view.PaintSettingWindow;
-import com.Centumpay.demoui.view.PaintView;
+import com.BusinessWallet.demoui.config.PenConfig;
+import com.BusinessWallet.demoui.utils.BitmapUtil;
+import com.BusinessWallet.demoui.utils.DisplayUtil;
+import com.BusinessWallet.demoui.utils.RequestSingleton;
+import com.BusinessWallet.demoui.utils.StatusBarCompat;
+import com.BusinessWallet.demoui.utils.SystemUtil;
+import com.BusinessWallet.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.utils.Utils;
+import com.BusinessWallet.demoui.view.CircleView;
+import com.BusinessWallet.demoui.view.PaintSettingWindow;
+import com.BusinessWallet.demoui.view.PaintView;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -41,7 +41,7 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

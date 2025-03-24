@@ -1,5 +1,5 @@
 
-package com.Centumpay.demoui.view;
+package com.BusinessWallet.demoui.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -39,7 +39,7 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.animation.AnimationUtils;
 import android.widget.ScrollView;
 
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.R;
 
 import java.util.List;
 

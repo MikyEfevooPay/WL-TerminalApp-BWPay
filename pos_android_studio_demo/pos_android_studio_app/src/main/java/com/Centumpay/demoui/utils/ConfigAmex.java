@@ -1,7 +1,7 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
-import static com.Centumpay.demoui.utils.AlgorithmAES.generateIv;
-import static com.Centumpay.demoui.utils.AlgorithmAES.generateKey;
+import static com.BusinessWallet.demoui.utils.AlgorithmAES.generateIv;
+import static com.BusinessWallet.demoui.utils.AlgorithmAES.generateKey;
 
 import android.content.Context;
 import android.os.Build;

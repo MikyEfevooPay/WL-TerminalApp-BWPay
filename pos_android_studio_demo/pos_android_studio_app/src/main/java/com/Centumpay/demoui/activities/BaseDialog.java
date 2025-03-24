@@ -1,11 +1,11 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.R;
 
 public abstract class BaseDialog extends Dialog implements DialogInterface.OnCancelListener, DialogInterface.OnDismissListener {
 

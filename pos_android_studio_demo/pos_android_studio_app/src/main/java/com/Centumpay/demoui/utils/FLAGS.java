@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
 public enum FLAGS {
     CHECK_NETWORK(0);

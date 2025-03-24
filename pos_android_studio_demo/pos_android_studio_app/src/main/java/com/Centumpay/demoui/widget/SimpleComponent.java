@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.widget;
+package com.BusinessWallet.demoui.widget;
 
 
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.binioter.guideview.Component;
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.R;
 
 /**
  * Created by Qianmeng on 2020/3/10

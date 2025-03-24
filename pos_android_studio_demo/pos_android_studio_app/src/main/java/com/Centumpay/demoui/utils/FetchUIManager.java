@@ -1,13 +1,13 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 
 import androidx.annotation.Nullable;
 
-import com.Centumpay.demoui.interfaces.FetchEntity;
-import com.Centumpay.demoui.interfaces.FetchOptions;
-import com.Centumpay.demoui.interfaces.IFetchs;
+import com.BusinessWallet.demoui.interfaces.FetchEntity;
+import com.BusinessWallet.demoui.interfaces.FetchOptions;
+import com.BusinessWallet.demoui.interfaces.IFetchs;
 
 import java.util.ArrayList;
 import java.util.List;

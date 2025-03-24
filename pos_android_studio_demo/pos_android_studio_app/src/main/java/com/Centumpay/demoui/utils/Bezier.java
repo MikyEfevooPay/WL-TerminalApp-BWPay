@@ -1,6 +1,6 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
-import com.Centumpay.demoui.config.ControllerPoint;
+import com.BusinessWallet.demoui.config.ControllerPoint;
 
 /**
  * 贝塞尔操作工具类，对点的位置和宽度控制的bezier曲线，主要是两个点，都包含了宽度和点的坐标

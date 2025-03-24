@@ -1,9 +1,9 @@
-package com.Centumpay.demoui.activities;
+package com.BusinessWallet.demoui.activities;
 
-import com.Centumpay.demoui.utils.CorteCaja;
-import com.Centumpay.demoui.utils.TRACE;
-import com.Centumpay.demoui.utils.Transaction;
-import com.Centumpay.demoui.utils.Utils;
+import com.BusinessWallet.demoui.utils.CorteCaja;
+import com.BusinessWallet.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.utils.Transaction;
+import com.BusinessWallet.demoui.utils.Utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

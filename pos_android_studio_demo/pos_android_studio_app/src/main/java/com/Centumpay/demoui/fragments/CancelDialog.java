@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.fragments;
+package com.BusinessWallet.demoui.fragments;
 
 import android.app.Dialog;
 import android.content.res.Resources;
@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
 
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.R;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;

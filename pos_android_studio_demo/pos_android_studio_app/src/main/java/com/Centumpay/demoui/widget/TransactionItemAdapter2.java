@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.widget;
+package com.BusinessWallet.demoui.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -17,10 +17,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.interfaces.TransactionsViewInterface;
-import com.Centumpay.demoui.utils.TRACE;
-import com.Centumpay.demoui.utils.Transaction;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.interfaces.TransactionsViewInterface;
+import com.BusinessWallet.demoui.utils.TRACE;
+import com.BusinessWallet.demoui.utils.Transaction;
 
 import java.util.ArrayList;
 import java.util.concurrent.CompletableFuture;

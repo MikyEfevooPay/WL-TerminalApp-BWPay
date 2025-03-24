@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
 import android.content.res.Resources;
 import android.database.Cursor;
@@ -7,8 +7,8 @@ import android.os.Build;
 import com.blumonpay.capx.functions.CypherFunctions;
 import com.blumonpay.capx.model.DUKPTData;
 import com.blumonpay.capx.model.TransactionData;
-import com.Centumpay.demoui.BuildConfig;
-import com.Centumpay.demoui.R;
+import com.BusinessWallet.demoui.BuildConfig;
+import com.BusinessWallet.demoui.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

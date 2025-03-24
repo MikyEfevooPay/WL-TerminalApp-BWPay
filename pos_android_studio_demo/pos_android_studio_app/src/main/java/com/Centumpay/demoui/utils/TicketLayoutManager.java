@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.utils;
+package com.BusinessWallet.demoui.utils;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,8 +6,8 @@ import android.widget.LinearLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.interfaces.TicketLayoutType;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.interfaces.TicketLayoutType;
 
 import java.util.Locale;
 

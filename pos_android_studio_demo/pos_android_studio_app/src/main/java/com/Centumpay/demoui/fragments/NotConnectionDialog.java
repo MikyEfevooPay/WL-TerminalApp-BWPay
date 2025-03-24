@@ -1,4 +1,4 @@
-package com.Centumpay.demoui.fragments;
+package com.BusinessWallet.demoui.fragments;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -18,9 +18,9 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 
-import com.Centumpay.demoui.R;
-import com.Centumpay.demoui.activities.WMX_Connection_Test;
-import com.Centumpay.demoui.activities.WMX_KSN;
+import com.BusinessWallet.demoui.R;
+import com.BusinessWallet.demoui.activities.WMX_Connection_Test;
+import com.BusinessWallet.demoui.activities.WMX_KSN;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
