@@ -42,10 +42,10 @@
 
         <ImageView
             android:id="@+id/toolbar_logo"
-            android:layout_width="312px"
+            android:layout_width="190.13px"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:src="@drawable/logo_centumpay_menu" />
+            android:src="@drawable/logo_bw"/>
     </LinearLayout>
 
 

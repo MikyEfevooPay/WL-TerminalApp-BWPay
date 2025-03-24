@@ -49,9 +49,9 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="253px"
-                android:layout_height="59px"
-                app:srcCompat="@drawable/logo_centumpay_ticket" />
+                android:layout_width="190.12px"
+                android:layout_height="78px"
+                app:srcCompat="@drawable/logo_bw" />
 
         </LinearLayout>
 

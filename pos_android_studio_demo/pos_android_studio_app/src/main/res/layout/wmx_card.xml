@@ -24,10 +24,10 @@
         android:id="@+id/imageView16"
         android:layout_width="268px"
         android:layout_height="77px"
-        app:srcCompat="@drawable/logo_centumpay"
         android:layout_gravity="center"
         android:layout_marginTop="20px"
-        />
+        app:srcCompat="@drawable/white_logo" />
+
     <LinearLayout
         android:id="@+id/lin3"
         android:layout_width="match_parent"

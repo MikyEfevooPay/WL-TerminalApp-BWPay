@@ -73,6 +73,7 @@ public class WMX_Connection_Test_Final extends BaseActivity implements View.OnCl
         Resources rsc = getResources();
         switch (type) {
             case SUCCESS:
+                lyt_connection_test_final_header.setBackgroundColor(rsc.getColor(R.color.transparent));
                 txt_connection_success_title.setText(rsc.getText(R.string.wmx_connection_test_final_title));
                 btn_continue.setText(rsc.getText(R.string.common_continue));
                 lyt_connection_error.setVisibility(View.GONE);

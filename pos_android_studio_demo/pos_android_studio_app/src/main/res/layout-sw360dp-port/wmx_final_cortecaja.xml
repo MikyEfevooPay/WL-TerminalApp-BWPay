@@ -84,7 +84,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="424px"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/cortecaja_empty_icon" />
+                    app:srcCompat="@drawable/cortecaja_empty_icon_png" />
 
                 <TextView
                     android:id="@+id/txt_finalcortecaja_empty"
@@ -95,7 +95,7 @@
                     android:fontFamily="@font/dm_sans_bold"
                     android:text="Corte de caja no disponible"
                     android:textAlignment="center"
-                    android:textColor="@color/ep_set_monto"
+                    android:textColor="@color/soft_text"
                     android:textSize="30px" />
 
             </LinearLayout>

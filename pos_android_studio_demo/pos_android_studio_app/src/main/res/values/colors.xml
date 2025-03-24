@@ -226,7 +226,7 @@
     <color name="ep_icon_back">#121212</color>
 
     <!--  Color  -->
-    <color name="ep_color_black">#121212</color>
+    <color name="ep_color_black">#343434</color>
     <color name="ep_color_blue">#3378FA</color>
 
     <!--  Radio button  -->
@@ -251,8 +251,9 @@
 
     <!--  Text  -->
 
-    <color name="ep_set_monto">#386EB1</color>
+    <color name="ep_set_monto">#2F4F9A</color>
     <color name="m_btn_stroke">#AFC5DF</color>
     <color name="btn_black">#386EB1</color>
+    <color name="soft_text">#8196C3</color>
 
 </resources>

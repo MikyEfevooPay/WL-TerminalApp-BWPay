@@ -27,12 +27,11 @@
         <!--    </LinearLayout>-->
         <ImageView
             android:id="@+id/imageView16"
-            android:layout_width="328px"
-            android:layout_height="77px"
-            app:srcCompat="@drawable/logo_centumpay"
+            android:layout_width="253.5px"
+            android:layout_height="104px"
             android:layout_gravity="center"
             android:layout_marginTop="20px"
-            />
+            app:srcCompat="@drawable/white_logo" />
         <LinearLayout
             android:id="@+id/lin3"
             android:layout_width="match_parent"
@@ -96,7 +95,7 @@
                 app:lottie_rawRes="@raw/puntos"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
-                android:visibility="gone"
+                android:visibility="visible"
                 />
 
             <EditText

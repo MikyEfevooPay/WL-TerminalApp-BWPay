@@ -47,7 +47,7 @@
             />
         <Key
             android:codes="-5"
-            android:keyIcon="@drawable/borrar"
+            android:keyIcon="@drawable/eliminar"
             android:keyEdgeFlags="left"
             />
     </Row>
