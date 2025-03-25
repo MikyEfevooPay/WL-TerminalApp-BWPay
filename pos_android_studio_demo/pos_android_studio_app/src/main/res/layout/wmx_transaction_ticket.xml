@@ -9,8 +9,8 @@
     <ImageView
         android:id="@+id/img_ticket_logo"
         android:layout_width="match_parent"
-        android:layout_height="67px"
-        app:srcCompat="@drawable/logo_centumpay_bmp_try3" />
+        android:layout_height="65px"
+        app:srcCompat="@drawable/logo_ticket" />
 
     <LinearLayout
         android:id="@+id/lyt_ticket_address"
