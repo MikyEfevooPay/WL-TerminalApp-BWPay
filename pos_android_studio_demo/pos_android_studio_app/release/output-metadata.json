@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.cohetepay.demoui",
+  "applicationId": "com.BusinessWallet.demoui",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 292,
-      "versionName": "1.5.9.7",
+      "versionCode": 296,
+      "versionName": "1.5.9.11",
       "outputFile": "pos_android_studio_app-release.apk"
     }
   ],

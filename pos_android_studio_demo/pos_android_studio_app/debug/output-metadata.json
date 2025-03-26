@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.Centumpay.demoui",
+  "applicationId": "com.BusinessWallet.demoui",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 294,
-      "versionName": "1.5.9.9",
+      "versionCode": 296,
+      "versionName": "1.5.9.11",
       "outputFile": "pos_android_studio_app-debug.apk"
     }
   ],
