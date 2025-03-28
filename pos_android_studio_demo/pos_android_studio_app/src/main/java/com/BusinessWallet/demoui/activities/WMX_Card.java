@@ -1167,7 +1167,7 @@ public class WMX_Card extends BaseActivity implements View.OnClickListener {
                 // F41.toString(), _tag50, _tag9F12, _tag9F21.substring(6, _tag9F21.length()));
 
                 // pos.updateEMVConfigByXml(new
-                // String(FileUtils.readAssetsLine("emv_profile_tlv_D30.xml",WMX_Card.this)));
+                // String(FileUtils.readAssetsLine("wirebit_emv_profile_tlv_D30-20250321.xml",WMX_Card.this)));
 
             } else if (transactionResult == QPOSService.TransactionResult.TERMINATED) {
                 onCancelTransaction(getString(R.string.transaction_terminated));
