@@ -66,7 +66,7 @@ public class WMX_Final_CorteCaja_Ticket extends BaseActivity implements View.OnC
     private String ksn_posId, totalamount, date, corte, tip, TableRowsString, currEmail;
     private Context mContext;
     private Button btn_cortecaja_final;
-    private TextView txt_totalamount, txt_datetime, txt_subtotal, txt_tip;
+    private TextView txt_totalamount, txt_datetime, txt_subtotal, txt_tip,lbl_corte_ticket_title;
     private LinearLayout lyt_cortecaja_email, lyt_cortecaja_print;
     private final WMX_llamada_dukpt jsondukpt = new WMX_llamada_dukpt();
     private DBManager dbManager;
@@ -98,6 +98,9 @@ public class WMX_Final_CorteCaja_Ticket extends BaseActivity implements View.OnC
 
         if(type == CORTE_CAJA_TYPE.DETAILS) {
             btn_cortecaja_final.setText("Cerrar");
+        }else{
+            lbl_corte_ticket_title=findViewById(R.id.lbl_corte_ticket_title);
+            lbl_corte_ticket_title.setText("¡Corte de Caja exitoso!");
         }
 
         txt_totalamount = findViewById(R.id.lbl_cortecaja_total_value);

@@ -213,7 +213,7 @@
     <color name="ep_btn_cancelar_texto">#CC1818</color>
     <color name="ep_btn_menu_fondo">#FFFFFF</color>
     <color name="ep_btn_menu_texto">#212859</color>
-    <color name="ep_btn_continuar_fondo">#386EB1</color>#
+    <color name="ep_btn_continuar_fondo">#325FEC</color>#
     <color name="ep_btn_continuar_texto">#FFF</color>
     <color name="ep_btn_confirmacion_fondo">#B9E0AB</color>
     <color name="ep_btn_confirmacion_texto">#84CE78</color>
@@ -242,7 +242,7 @@
     <color name="sign_pen_green">#0cba02</color>
     <color name="sign_pen_yellow">#f9d403</color>
     <color name="sign_pen_blue">#027de9</color>
-    <color name="sign_toolbar_bg">#0c53ab</color>
+    <color name="sign_toolbar_bg">#325FEC</color>
     <color name="sign_bg">#f5f5f5</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
@@ -251,9 +251,9 @@
 
     <!--  Text  -->
 
-    <color name="ep_set_monto">#2F4F9A</color>
+    <color name="ep_set_monto">#325FEC</color>
     <color name="m_btn_stroke">#AFC5DF</color>
     <color name="btn_black">#386EB1</color>
     <color name="soft_text">#8196C3</color>
-
+    <color name="sp_set_email">#2F4F9A</color>
 </resources>

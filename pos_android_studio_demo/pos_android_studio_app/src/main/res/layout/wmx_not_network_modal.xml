@@ -22,7 +22,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            app:srcCompat="@drawable/m_informaci_n" />
+            app:srcCompat="@drawable/efevoo_i_info" />
 
         <TextView
             android:id="@+id/textView31"
@@ -194,7 +194,7 @@
             android:stateListAnimator="@null"
             android:text="Cancelar"
             android:textAllCaps="false"
-            android:textColor="@color/ep_color_black"
+            android:textColor="@color/ep_color_blue"
             android:textSize="30px" />
 
 

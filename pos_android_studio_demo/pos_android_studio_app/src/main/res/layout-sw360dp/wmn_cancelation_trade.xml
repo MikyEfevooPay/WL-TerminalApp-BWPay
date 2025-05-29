@@ -73,7 +73,7 @@
                 android:fontFamily="@font/dm_sans_bold"
                 android:text="Reintentar"
                 android:textColor="@color/white"
-                android:textSize="30px" />
+                 />
 
             <Button
                 android:id="@+id/btn_cancel"

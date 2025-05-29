@@ -389,7 +389,7 @@
                 android:id="@+id/btn_print"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/btn_black"
+                android:backgroundTint="@color/ep_icon_back"
                 android:fontFamily="@font/dm_sans_bold"
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"

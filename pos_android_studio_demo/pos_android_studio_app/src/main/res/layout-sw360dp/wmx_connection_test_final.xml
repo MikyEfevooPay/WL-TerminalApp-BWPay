@@ -8,7 +8,7 @@
         android:id="@+id/lyt_connection_test_final"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/gradient"
+        android:background="@drawable/ticket_cancel_background"
         android:orientation="vertical">
 
         <include layout="@layout/toolbar_layout" />
@@ -157,7 +157,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/rounded_corner"
-                    android:backgroundTint="#386EB1"
+                    android:backgroundTint="@color/ep_btn_continuar_fondo"
                     android:text="Button"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF" />

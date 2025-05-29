@@ -118,7 +118,7 @@
         <item name="android:orientation">vertical</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginBottom">15px</item>
-        <item name="backgroundTint">@color/ep_btn_regresar_texto</item>
+        <item name="backgroundTint">#325FEC</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
 
@@ -189,7 +189,7 @@
         <item name="colorSurface">#fff</item>
         <item name="colorOnSurface">#121212</item>
         <!--        <item name="colorPrimary">#92A8FF</item>-->
-        <item name="colorPrimary">#386EB1</item>
+        <item name="colorPrimary">#325FEC</item>
         <item name="colorOnPrimary">#fff</item>
 
     </style>
@@ -220,8 +220,8 @@
     </style>
     <!--  selected color  -->
     <style name= "CustomSelected" parent="Widget.MaterialComponents.MaterialCalendar.Day.Selected">
-        <item name="itemFillColor">#2F4F9A</item>
-        <item name="itemStrokeColor">#2F4F9A</item>
+        <item name="itemFillColor">#325FEC</item>
+        <item name="itemStrokeColor">#325FEC</item>
     </style>
 
     <!-- ____________________ styles calendar ____________________-->

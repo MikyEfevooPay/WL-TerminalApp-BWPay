@@ -19,6 +19,12 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/giv_card_status"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:src="@drawable/efevoo_i_check_resumen_de_pago" />
+
         <TextView
             android:id="@+id/lbl_corte_ticket_title"
             android:layout_width="wrap_content"
@@ -49,7 +55,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="190px"
                 android:layout_height="53px"
-                app:srcCompat="@drawable/logo_centumpay_ticket" />
+                app:srcCompat="@drawable/logo_bw" />
 
         </LinearLayout>
 
@@ -262,7 +268,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60px"
                 android:background="@drawable/rounded_corner"
-                android:backgroundTint="#000000"
+                android:backgroundTint="@color/ep_btn_continuar_fondo"
                 android:fontFamily="@font/dm_sans_bold"
                 android:minHeight="50dip"
                 android:stateListAnimator="@null"
