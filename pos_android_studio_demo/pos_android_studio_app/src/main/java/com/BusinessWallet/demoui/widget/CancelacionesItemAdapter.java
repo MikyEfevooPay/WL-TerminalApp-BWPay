@@ -40,7 +40,7 @@ public class CancelacionesItemAdapter extends RecyclerView.Adapter<Cancelaciones
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
-        myViewHolder.tv_auth.setText(_transactions.get(i).get_auth());
+        myViewHolder.tv_auth.setText(_transactions.get(i).get_approve());
         myViewHolder.tv_date2.setText(_transactions.get(i).get_date());
         myViewHolder.tv_amount2.setText(_transactions.get(i).get_total());
         myViewHolder.tv_time.setText(_transactions.get(i).get_time());
@@ -49,12 +49,14 @@ public class CancelacionesItemAdapter extends RecyclerView.Adapter<Cancelaciones
         myViewHolder.iv_status.setVisibility(View.GONE);
         myViewHolder.tv_amount2.setTextColor(0xFF000000);
 
-        if(_transactions.get(i).get_redtarj().equals("MC")){
+        if(_transactions.get(i).get_redtarj().toUpperCase(Locale.ROOT).equals("MC")){
             myViewHolder.iv_process.setImageResource(R.drawable.masterdcard);
-        }else if(_transactions.get(i).get_redtarj().equals("Visa")){
+        }else if(_transactions.get(i).get_redtarj().toUpperCase(Locale.ROOT).equals("VISA")){
             myViewHolder.iv_process.setImageResource(R.drawable.visa);
         }else if(_transactions.get(i).get_redtarj().toUpperCase(Locale.ROOT).equals("AMEX")){
             myViewHolder.iv_process.setImageResource(R.drawable.amex);
+        }else{
+            myViewHolder.iv_process.setImageResource(R.drawable.internacional);
         }
 
     }

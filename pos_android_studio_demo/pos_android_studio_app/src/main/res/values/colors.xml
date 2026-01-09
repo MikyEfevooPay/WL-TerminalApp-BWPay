@@ -212,8 +212,6 @@
     <color name="ep_btn_cancelar_fondo">#FFBABA</color>
     <color name="ep_btn_cancelar_texto">#CC1818</color>
     <color name="ep_btn_menu_fondo">#FFFFFF</color>
-    <color name="ep_btn_menu_texto">#212859</color>
-    <color name="ep_btn_continuar_fondo">#325FEC</color>#
     <color name="ep_btn_continuar_texto">#FFF</color>
     <color name="ep_btn_confirmacion_fondo">#B9E0AB</color>
     <color name="ep_btn_confirmacion_texto">#84CE78</color>
@@ -251,9 +249,27 @@
 
     <!--  Text  -->
 
-    <color name="ep_set_monto">#325FEC</color>
     <color name="m_btn_stroke">#AFC5DF</color>
-    <color name="btn_black">#386EB1</color>
+
+
+    <!--  colores del menu  -->
+    <color name="ep_btn_menu_texto">#212859</color>
+    <!--  Color primario en textos, colores de la mayoria de los textos y otros  -->
+    <color name="ep_set_monto">#325FEC</color>
+    <!--  Color secundario en textos, colores de la mayoria de los textos y otros  -->
+    <color name="secundary_color">#3378FA</color>
+    <!--  Color boton principal  -->
+    <color name="ep_btn_continuar_fondo">#325FEC</color>
+    <!--  Color boton secundario, mayormente es negro  -->
+    <color name="btn_black">#121212</color>
+
     <color name="soft_text">#8196C3</color>
     <color name="sp_set_email">#2F4F9A</color>
+    <color name="radiu_color">#009ADF</color>
+
+    <color name="line_email">#3378FA</color>
+
+    <color name="dotted_line">#9950A6</color>
+
+    <color name="alert_money">#299D15</color>
 </resources>

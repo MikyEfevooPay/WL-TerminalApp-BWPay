@@ -32,8 +32,8 @@
                 android:fontFamily="@font/dm_sans_bold"
                 android:text="Monto total"
                 android:textAlignment="center"
-                android:textColor="#299D15"
-                android:textSize="25px" />
+                android:textColor="@color/alert_money"
+                android:textSize="20px" />
 
             <TextView
                 android:id="@+id/txt_totalamount"
@@ -43,8 +43,8 @@
                 android:layout_marginBottom="5px"
                 android:fontFamily="@font/dm_sans_bold"
                 android:text="$4,130.00 mxn"
-                android:textColor="#299D15"
-                android:textSize="40px" />
+                android:textColor="@color/alert_money"
+                android:textSize="25px" />
 
             <TextView
                 android:id="@+id/txt_datetime"
@@ -55,7 +55,7 @@
                 android:fontFamily="@font/dm_sans"
                 android:text="27/04/22 15:24"
                 android:textColor="#121212"
-                android:textSize="35px" />
+                android:textSize="25px" />
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
@@ -86,7 +86,7 @@
                     android:id="@+id/imageView6"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/cortecaja_empty_icon_png" />
+                    app:srcCompat="@drawable/cortecaja_empty_icon" />
 
                 <TextView
                     android:id="@+id/txt_cortecaja_empty"
@@ -96,7 +96,7 @@
                     android:fontFamily="@font/dm_sans_bold"
                     android:text="Corte de caja no disponible"
                     android:textAlignment="center"
-                    android:textColor="#6498FA"
+                    android:textColor="@color/btn_black"
                     android:textSize="20px" />
             </LinearLayout>
 

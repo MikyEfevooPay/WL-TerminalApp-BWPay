@@ -389,12 +389,15 @@ public class GNTBackEnd {
             }
         }else{
             //TRACE.d("redtarjeta original: "+_red);
-            if(_red.equals("visa")){
+            if(_red.toUpperCase().equals("VISA")){
                 return _red.substring(0, 1).toUpperCase() + _red.substring(1);
-            }else if(_red.equals("mastercard"))  {
+            }else if(_red.toUpperCase().equals("MASTERCARD"))  {
                 return _red.substring(0, 1).toUpperCase() + _red.substring(6,7).toUpperCase();
-            }
-            else{
+            }else if(_red.toUpperCase().equals("AMEX")){
+                return _red;
+            }else if(_red.toUpperCase().equals("NA")){
+                return _red;
+            } else {
                 return _red;
             }
         }
@@ -565,9 +568,23 @@ public class GNTBackEnd {
             return Utils.TERMINAL_AMEX + "/amex/tpv/transaccion";
         }else if (tipo.equals("Prosa")){
             TRACE.d("getcallvalidaprosa: ");
-            return Utils.TERMINAL_API + "/efevoo/tpv/transaccion";
+            return Utils.TERMINAL_BATCH + "/api/tpv/transaccion";
         }else{
             return "";
+        }
+    }
+    public boolean getValidaTarjeta(String type_transaction,String tarjetainicio,String tarjetafinal)
+    {
+        if(type_transaction.equals("Cancelacion"))
+        {
+            if(tarjetainicio.equals(tarjetafinal))
+            {
+                return true;
+            }else{
+                return false;
+            }
+        }else{
+            return  true;
         }
     }
 }

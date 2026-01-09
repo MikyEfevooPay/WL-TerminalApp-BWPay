@@ -30,7 +30,7 @@
                 android:layout_marginBottom="5px"
                 android:fontFamily="@font/dm_sans_bold"
                 android:text="Monto total"
-                android:textColor="#299D15"
+                android:textColor="@color/alert_money"
                 android:textSize="25px" />
 
             <TextView
@@ -41,7 +41,7 @@
                 android:layout_marginBottom="5px"
                 android:fontFamily="@font/dm_sans_bold"
                 android:text="$4,130.00 mxn"
-                android:textColor="#299D15"
+                android:textColor="@color/alert_money"
                 android:textSize="40px" />
 
             <TextView
@@ -84,7 +84,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="424px"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/cortecaja_empty_icon_png" />
+                    app:srcCompat="@drawable/cortecaja_empty_icon" />
 
                 <TextView
                     android:id="@+id/txt_finalcortecaja_empty"

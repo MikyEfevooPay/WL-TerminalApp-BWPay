@@ -27,11 +27,12 @@
         <!--    </LinearLayout>-->
         <ImageView
             android:id="@+id/imageView16"
-            android:layout_width="253.5px"
-            android:layout_height="104px"
+            android:layout_width="342.72px"
+            android:layout_height="162px"
+            app:srcCompat="@drawable/logo_white"
             android:layout_gravity="center"
             android:layout_marginTop="20px"
-            app:srcCompat="@drawable/white_logo" />
+            />
         <LinearLayout
             android:id="@+id/lin3"
             android:layout_width="match_parent"

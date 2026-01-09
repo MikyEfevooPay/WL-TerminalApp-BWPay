@@ -27,10 +27,10 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="190.13px"
+                android:layout_width="342.72px"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/logo_bw" />
+                app:srcCompat="@drawable/logo" />
         </LinearLayout>
 
         <ScrollView

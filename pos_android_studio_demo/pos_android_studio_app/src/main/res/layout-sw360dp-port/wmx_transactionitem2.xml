@@ -59,9 +59,9 @@
 
                 <ImageView
                     android:id="@+id/wmx_trans_status"
-                    android:layout_width="50px"
-                    android:layout_height="50px"
-                    android:layout_marginRight="21px"
+                    android:layout_width="40px"
+                    android:layout_height="40px"
+                    android:layout_marginRight="10px"
                     tools:srcCompat="@android:drawable/btn_star_big_on" />
 
                 <LinearLayout
@@ -87,7 +87,7 @@
                         android:text="$000,000.00"
 
                         android:textColor="#4AAC38"
-                        android:textSize="30px" />
+                        android:textSize="25px" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -96,7 +96,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="5"
+            android:layout_weight="2"
             android:orientation="vertical">
 
 

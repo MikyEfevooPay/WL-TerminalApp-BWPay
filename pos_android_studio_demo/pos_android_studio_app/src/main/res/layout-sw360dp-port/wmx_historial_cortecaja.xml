@@ -15,8 +15,8 @@
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp">
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
 
         <TextView
             android:id="@+id/textView13"
@@ -55,7 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="424px"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/cortecaja_empty_icon_png" />
+                    app:srcCompat="@drawable/cortecaja_empty_icon" />
 
                 <TextView
                     android:id="@+id/txt_cortecaja_empty"
@@ -66,7 +66,7 @@
                     android:fontFamily="@font/dm_sans_bold"
                     android:text="Aún no se ha hecho\nningun corte de caja"
                     android:textAlignment="center"
-                    android:textColor="@color/ep_set_monto"
+                    android:textColor="@color/btn_black"
                     android:textSize="30px" />
 
             </LinearLayout>

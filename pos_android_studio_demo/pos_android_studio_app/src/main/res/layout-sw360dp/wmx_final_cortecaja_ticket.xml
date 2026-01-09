@@ -55,9 +55,9 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="190.12px"
-                android:layout_height="78px"
-                app:srcCompat="@drawable/logo_bw" />
+                android:layout_width="315px"
+                android:layout_height="66.98px"
+                app:srcCompat="@drawable/logo" />
 
         </LinearLayout>
 

@@ -18,6 +18,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatImageButton;
 
+import com.BusinessWallet.demoui.R;
 import com.BusinessWallet.demoui.interfaces.FetchEntity;
 import com.BusinessWallet.demoui.interfaces.FetchOptions;
 import com.BusinessWallet.demoui.interfaces.TicketLayoutType;
@@ -27,11 +28,10 @@ import com.BusinessWallet.demoui.utils.FetchUIManager;
 import com.BusinessWallet.demoui.utils.TRACE;
 import com.BusinessWallet.demoui.utils.Ticket;
 import com.BusinessWallet.demoui.utils.Utils;
-
 import com.android.volley.Request;
-import com.BusinessWallet.demoui.R;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -40,38 +40,16 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class WMX_Final_CorteCaja_Ticket extends BaseActivity implements View.OnClickListener {
-
-
-    public enum CORTE_CAJA_TYPE {
-        DETAILS(0),
-        FINAL(1);
-
-        private int id;
-        CORTE_CAJA_TYPE(int id) {
-            this.id = id;
-        }
-
-        public static CORTE_CAJA_TYPE getByNumber(int _id) {
-            for(CORTE_CAJA_TYPE type : values()) {
-                if(type.id == _id) {
-                    return type;
-                }
-            }
-            return CORTE_CAJA_TYPE.FINAL;
-        }
-    }
-
+public class WMX_Final_Historial_Ticket extends BaseActivity implements View.OnClickListener {
     private Intent intent;
-    private String ksn_posId, totalamount, date, corte, tip, TableRowsString, currEmail;
+    private String ksn_posId, totalamount, date, date2, corte, tip, TableRowsString, currEmail, totalmovimientos,totaltransacciones, totalcancelaciones, totalmc, totalvisa, totalamex, totalotro, totaldebito, totalcredito;
     private Context mContext;
-    private Button btn_cortecaja_final;
+    private Button btn_historial_final;
     private TextView txt_totalamount, txt_datetime, txt_subtotal, txt_tip;
-    private LinearLayout lyt_cortecaja_email, lyt_cortecaja_print;
+    private LinearLayout lyt_historial_email, lyt_historial_print;
     private final WMX_llamada_dukpt jsondukpt = new WMX_llamada_dukpt();
     private DBManager dbManager;
     Cursor cursor;
-    private CORTE_CAJA_TYPE type;
 
     private final String SEND_EMAIL = "send_Email";
 
@@ -83,27 +61,24 @@ public class WMX_Final_CorteCaja_Ticket extends BaseActivity implements View.OnC
         totalamount = intent.getStringExtra("totalamount");
         tip = intent.getStringExtra("tip");
         corte = intent.getStringExtra("corte");
-        date = intent.getStringExtra("fechaCorte");
+        date = intent.getStringExtra("date1");
+        date2 = intent.getStringExtra("date2");
         TableRowsString = intent.getStringExtra("tablerows");
         TRACE.d("TableRowsString: " + TableRowsString);
-        type = CORTE_CAJA_TYPE.getByNumber(intent.getIntExtra("type", 1));
+        procesaInformacion();
         mContext = this;
 
-        btn_cortecaja_final = findViewById(R.id.btn_cortecaja_final);
-        btn_cortecaja_final.setOnClickListener(this);
-        lyt_cortecaja_email = findViewById(R.id.lyt_cortecaja_email);
-        lyt_cortecaja_email.setOnClickListener(this);
-        lyt_cortecaja_print = findViewById(R.id.lyt_cortecaja_print);
-        lyt_cortecaja_print.setOnClickListener(this);
+        btn_historial_final = findViewById(R.id.btn_historial_final);
+        btn_historial_final.setOnClickListener(this);
+        lyt_historial_email = findViewById(R.id.lyt_historial_email);
+        lyt_historial_email.setOnClickListener(this);
+        lyt_historial_print = findViewById(R.id.lyt_historial_print);
+        lyt_historial_print.setOnClickListener(this);
 
-        if(type == CORTE_CAJA_TYPE.DETAILS) {
-            btn_cortecaja_final.setText("Cerrar");
-        }
-
-        txt_totalamount = findViewById(R.id.lbl_cortecaja_total_value);
-        txt_datetime = findViewById(R.id.lbl_cortecaja_fechahora_value);
-        txt_subtotal = findViewById(R.id.lbl_cortecaja_subtotal_value);
-        txt_tip = findViewById(R.id.lbl_cortecaja_propina_value);
+        txt_totalamount = findViewById(R.id.lbl_historial_total_value);
+        txt_datetime = findViewById(R.id.lbl_historial_fechahora_value);
+        txt_subtotal = findViewById(R.id.lbl_historial_subtotal_value);
+        txt_tip = findViewById(R.id.lbl_historial_propina_value);
 
         txt_subtotal.setText(corte);
         txt_tip.setText(tip);
@@ -144,6 +119,7 @@ public class WMX_Final_CorteCaja_Ticket extends BaseActivity implements View.OnC
             return;
         switch (entity.key) {
             case SEND_EMAIL:
+                TRACE.d("** ResponseResult " + TRACE.NEW_LINE + entity.result.toString());
                 showAlert("success", "¡Corte caja enviado con éxito!");
                 break;
             default:
@@ -155,25 +131,22 @@ public class WMX_Final_CorteCaja_Ticket extends BaseActivity implements View.OnC
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
-            case R.id.lyt_cortecaja_email:
+            case R.id.lyt_historial_email:
                 openModalSendEmail();
                 break;
-            case R.id.lyt_cortecaja_print:
+            case R.id.lyt_historial_print:
                 PrintTicket();
                 break;
-            case R.id.btn_cortecaja_final:
-                if(type == CORTE_CAJA_TYPE.DETAILS)
-                    onBackPressed();
-                    else
-                    startActivity(new Intent(mContext, WMX_Menu.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-
+            case R.id.btn_historial_final:
+                onBackPressed();
                 break;
+            default:
         }
     }
 
     @Override
     public void onBackPressed() {
-        if(type == CORTE_CAJA_TYPE.DETAILS) super.onBackPressed();
+        super.onBackPressed();
     }
 
     @Override
@@ -182,22 +155,33 @@ public class WMX_Final_CorteCaja_Ticket extends BaseActivity implements View.OnC
 
     @Override
     protected int getLayoutId() {
-        return R.layout.wmx_final_cortecaja_ticket;
+        return R.layout.wmx_final_historial_ticket;
     }
 
     @Override
     public TicketLayoutType getPrintLayout() {
-        return TicketLayoutType.CORTE;
+        return TicketLayoutType.HISTORIAL;
     }
 
     @Override
     public void setTicketData(Ticket ticket) {
-        ticket.setTrans_Type("CORTE DE CAJA")
+        ticket.setTrans_Type("REPORTE DE TRANSACCIONES")
                 .setDate_Time(date)
+                .setDate_Time2(date2)
                 .setAmount(corte)
                 .setTip(tip)
                 .setTotal(totalamount)
                 .setKsn_posId(ksn_posId)
+                .setTotalMovimientos(totalmovimientos)
+                .setTotalTransacciones(totaltransacciones)
+                .setTotalCancelaciones(totalcancelaciones)
+                .setTotal_MC(totalmc)
+                .setTotal_Visa(totalvisa)
+                .setTotal_Amex(totalamex)
+                .setTotal_Otro(totalotro)
+                .setTotal_Credito(totalcredito)
+                .setTotal_Debito(totaldebito)
+                .setTable_Rows(TableRowsString)
                 .setCursor(cursor);
     }
 
@@ -215,7 +199,7 @@ public class WMX_Final_CorteCaja_Ticket extends BaseActivity implements View.OnC
         btn_modal_sendEmail.getBackground().setAlpha(128);
         EditText txt_email = dialogContentView.findViewById(R.id.editTextTextPersonName2);
         TextView titulo = dialogContentView.findViewById(R.id.textView31);
-        titulo.setText("Recibe tu corte de caja por mail");
+        titulo.setText("Recibe tu historial de transacciones por mail");
         txt_email.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -250,6 +234,7 @@ public class WMX_Final_CorteCaja_Ticket extends BaseActivity implements View.OnC
         btn_modal_sendEmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                btn_modal_sendEmail.setClickable(false);
                 currEmail = txt_email.getText().toString();
                 modalEmailCreate.dismiss();
                 getFetchManager().CallById(SEND_EMAIL);
@@ -257,5 +242,51 @@ public class WMX_Final_CorteCaja_Ticket extends BaseActivity implements View.OnC
         });
     }
 
+    private void procesaInformacion(){
+        try {
+            JSONArray array = new JSONArray(TableRowsString);
+            totalmovimientos = String.valueOf(array.length());
+            Integer count = 0;
+            Integer cancelacionescount = 0;
+            Integer mccount = 0;
+            Integer visacount = 0;
+            Integer amexcount = 0;
+            Integer otrocount = 0;
+            Integer debitocount = 0;
+            Integer creditocount = 0;
+            for (int i = 0; i < array.length(); i++) {
+                JSONObject object1 = array.getJSONObject(i);
+                if(object1.getString("tipotxn").equals("CAN") || object1.getString("tipotxn").equals("CANMSI")){
+                    cancelacionescount++;
+                } else {
+                    count++;
+                }
+                if(object1.getString("redtarj").toUpperCase().equals("VISA")){
+                    visacount++;
+                } else if(object1.getString("redtarj").toUpperCase().equals("MC")){
+                    mccount++;
 
+                } else if(object1.getString("redtarj").toUpperCase().equals("AMEX")){
+                    amexcount++;
+                } else {
+                    otrocount++;
+                }
+                if(object1.getString("tipotarj").toUpperCase().contains("BITO")){
+                    debitocount++;
+                } else {
+                    creditocount++;
+                }
+            }
+            totaltransacciones = String.valueOf(count);
+            totalcancelaciones = String.valueOf(cancelacionescount);
+            totalmc = String.valueOf(mccount);
+            totalvisa = String.valueOf(visacount);
+            totalamex = String.valueOf(amexcount);
+            totalotro = String.valueOf(otrocount);
+            totalcredito = String.valueOf(creditocount);
+            totaldebito = String.valueOf(debitocount);
+        } catch (JSONException e){
+            TRACE.d(e.getMessage());
+        }
+    }
 }
